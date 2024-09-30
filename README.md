@@ -46,8 +46,21 @@ Ubah menjadi
 
 Kalo udah selesai ngedit, jangan lupa `commit change` biar kesimpen.
 
+### 6. Edit file (2)
+
+Format nama file untuk Pemdas :
+```sh
+ PemDas_Bab_No-Soal.java
+```
+Kasih credit nama lu pas di bagian commit change
+ ```Di bagian keterangan```
+
+
+
 
 ## Oke, sekian yhh
+
+<!-- [!Contributors][Contributor-url] -->
 
 
 
