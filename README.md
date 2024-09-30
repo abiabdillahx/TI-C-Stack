@@ -22,6 +22,9 @@ let's make that "C for cum laude" tagline come true.
 
  Untuk mengupload file, lu pencet aja yang di pojok kanan repository folder-nya. `"New"`. Ntar ada `Upload file` atau `New File`.
 Pilih yang Upload. 
+<div align="center">
+ <img src="image/upload-file.png" width="800px">
+</div>
 
 ### 4. Download File
 
@@ -45,6 +48,9 @@ Ubah menjadi
 
 
 Kalo udah selesai ngedit, jangan lupa `commit change` biar kesimpen.
+<div align="center">
+  <img src="image/commit-change.png" width="800px">
+</div>
 
 ### 6. Edit file (2)
 
@@ -53,12 +59,13 @@ Format nama file untuk Pemdas :
  PemDas_Bab_No-Soal.java
 ```
 Kasih credit nama lu pas di bagian commit change
- ```Di bagian keterangan```
+ Di bagian ```commit message```
 
 
 
 
 ## Oke, sekian yhh
+
 
 <!-- [!Contributors][Contributor-url] -->
 
