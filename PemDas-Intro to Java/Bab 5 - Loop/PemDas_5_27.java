@@ -16,5 +16,5 @@ public class PemDas_5_27_Abi {
 
         System.out.println("\n\nJumlah tahun kabisat antara tahun 101-2100 adalah =  " + jml);
 
-    } // Abi Abdillah
+    } // Abi Abdillah -
 }
