@@ -16,7 +16,8 @@ public class PemDas_Bab5_36 {
             int ParseData = Integer.parseInt(data);
 
             int nilai = ParseData * (i + 1);
-            semuadigit += nilai;
+            semuadigit += nilai; //sama aja kayak semuadigit = semudaigit + nilai
+       
         }
         d10 = semuadigit % 11;
 
