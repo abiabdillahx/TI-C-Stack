@@ -40,8 +40,7 @@ public class PraktikumSwitch {
 
                     double volBalok = (double) panjang * lebar * tinggi;
                     volBalok = Math.ceil(volBalok);
-
-                    System.out.println(" ");
+                    
                     System.out.printf("VOLUME BALOK = %.1f\n\n", volBalok);
                     break;
 
@@ -55,7 +54,6 @@ public class PraktikumSwitch {
                     double volBola = 4 / 3.0 * Math.PI * Math.pow(jariJari, 3);
                     volBola = Math.ceil(volBola);
 
-                    System.out.println(" ");
                     System.out.printf("VOLUME BOLA = %.1f\n\n", volBola);
                     break;
 
@@ -72,7 +70,7 @@ public class PraktikumSwitch {
                     double volKerucut = 1 / 3.0 * Math.PI * Math.pow(jariJariKerucut, 2) * tinggiKerucut;
                     volKerucut = Math.ceil(volKerucut);
 
-                    System.out.printf("VOLUME KERUCUT = %.1f\n\n", volKerucut, " cm^3");
+                    System.out.printf("VOLUME KERUCUT = %.1f\n\n", volKerucut);
                     break;
 
                 case 4:
@@ -111,6 +109,7 @@ public class PraktikumSwitch {
 
                         double volLimas = 1 / 3.0 * luasAlas2 * tinggiLimas;
                         volLimas = Math.ceil(volLimas);
+                        
                         System.out.printf("VOLUME LIMAS = %.1f\n\n", volLimas);
 
                     }
@@ -130,6 +129,7 @@ public class PraktikumSwitch {
 
                         double volLimas = 1 / 3.0 * luasAlas * tinggiLimas;
                         volLimas = Math.ceil(volLimas);
+                        
                         System.out.printf("VOLUME LIMAS = %.1f\n\n", volLimas);
 
                     }
