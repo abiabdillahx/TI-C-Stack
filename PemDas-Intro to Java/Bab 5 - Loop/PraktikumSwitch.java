@@ -2,7 +2,7 @@ import java.util.*;
 
 //ahmadthoriq
 
-public class praktikum1oktober {
+public class PraktikumSwitch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int pilihan;
