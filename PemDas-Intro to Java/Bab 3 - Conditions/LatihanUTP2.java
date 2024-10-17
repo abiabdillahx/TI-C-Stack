@@ -5,9 +5,8 @@ public class LatihanUTP2 {
         // Scanner buat ngambil input dari user
         Scanner sc = new Scanner(System.in);
 
-        // Final variables biar gak bisa diubah, tinggi gedung & waktu bola di udara (detik)
-        final int tinggiGd = 50; // Gedung tingginya 50 meter, bro
-        final int waktuBola = 6; // Bola bakal ada di udara selama 6 detik
+        int tinggiGd = 50; // Gedung tingginya 50 meter, bro
+        int waktuBola = 6; // Bola bakal ada di udara selama 6 detik
 
         // Input sudut elevasi & kecepatan orang dari user
         double sudutElevasi = sc.nextDouble();
