@@ -4,7 +4,6 @@ public class Praktikum22Okt {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Array 2D untuk menyimpan data kereta api
         String[][] keretaApi = {
             {"Ekonomi", "50000", "2", "Tidak Ada", "Tidak Ada"},
             {"Bisnis", "100000", "5", "Ada", "Tidak Ada"},
@@ -12,13 +11,11 @@ public class Praktikum22Okt {
             {"Pariwisata", "300000", "10", "Ada", "Ada"}
         }; 
 
-        // Array untuk menyimpan maksimal 10 pesanan tiket
         String[] pesananTiket = new String[10];
-        double[] hargaPesanan = new double[10]; // Untuk menyimpan harga tiket setelah diskon
-        int jumlahPesanan = 0; // Counter untuk pesanan tiket
+        double[] hargaPesanan = new double[10];
+        int jumlahPesanan = 0;
 
         while (true) {
-            // Menu pilihan
             System.out.println("Pilihan menunya adalah:");
             System.out.println("1. Melihat Daftar Kereta Api");
             System.out.println("2. Melihat Daftar Kereta Api yang ada AC");
@@ -35,7 +32,6 @@ public class Praktikum22Okt {
 
             switch (pilihan) {
                 case 1:
-                    // Menampilkan semua daftar kereta api
                     System.out.println("Daftar Kereta Api:");
                     for (String[] kereta : keretaApi) {
                         System.out.printf("Jenis: %s, Harga: Rp. %s, Diskon: %s%%, AC: %s, Colokan: %s\n", 
@@ -43,7 +39,6 @@ public class Praktikum22Okt {
                     }
                     break;
                 case 2:
-                    // Menampilkan daftar kereta api yang ada AC
                     System.out.println("Daftar Kereta Api dengan AC:");
                     for (String[] kereta : keretaApi) {
                         if (kereta[3].equals("Ada")) {
@@ -52,7 +47,6 @@ public class Praktikum22Okt {
                     }
                     break;
                 case 3:
-                    // Menampilkan daftar kereta api yang ada colokan
                     System.out.println("Daftar Kereta Api dengan Colokan:");
                     for (String[] kereta : keretaApi) {
                         if (kereta[4].equals("Ada")) {
@@ -61,12 +55,11 @@ public class Praktikum22Okt {
                     }
                     break;
                 case 4:
-                    // Memesan tiket
                     if (jumlahPesanan >= 10) {
                         System.out.println("Anda telah mencapai batas maksimal pesanan (10 tiket).");
                     } else {
                         System.out.println("Masukkan jenis kereta api yang ingin dipesan:");
-                        sc.nextLine(); // untuk membersihkan buffer
+                        sc.nextLine();
                         String jenisPesanan = sc.nextLine();
                         boolean ditemukan = false;
                         for (String[] kereta : keretaApi) {
@@ -91,7 +84,6 @@ public class Praktikum22Okt {
                     }
                     break;
                 case 5:
-                    // Menampilkan pesanan tiket
                     if (jumlahPesanan > 0) {
                         System.out.println("Pesanan tiket Anda:");
                         double totalHarga = 0;
@@ -106,7 +98,7 @@ public class Praktikum22Okt {
                     }
                     break;
             }
-            System.out.println(); // Baris kosong untuk pemisah
+            System.out.println();
         }
 
         sc.close();
