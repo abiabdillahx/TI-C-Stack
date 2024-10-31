@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PemDas_Bab7_16 {
+public class PemDas_Bab7_26 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
